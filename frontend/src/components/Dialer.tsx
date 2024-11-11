@@ -70,7 +70,7 @@ const Dialer: React.FC<DialerProps> = ({ phoneNumber, disabled }) => {
 
   useEffect(() => {
     const newSocket = io(
-      "https://7a61-2409-40e0-48-d2fa-7874-d1b9-5cad-6149.ngrok-free.app",
+      "https://778c-2409-40e0-100e-2445-387e-cda9-4ceb-654c.ngrok-free.app"||"http://localserver:3001",
       {
         transports: ["websocket"],
 

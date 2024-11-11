@@ -22,7 +22,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://778c-2409-40e0-100e-2445-387e-cda9-4ceb-654c.ngrok-free.app"||"http://localhost:5173",
 
     methods: ["GET", "POST"],
   },

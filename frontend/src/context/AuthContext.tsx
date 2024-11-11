@@ -60,7 +60,7 @@ interface AuthContextType {
   ) => Promise<VirtualNumber[]>;
 }
 
-export const API_URL = "https://7a61-2409-40e0-48-d2fa-7874-d1b9-5cad-6149.ngrok-free.app/api"; // Updated port to match backend
+export const API_URL = "https://778c-2409-40e0-100e-2445-387e-cda9-4ceb-654c.ngrok-free.app/api"||"http://localhost:3001/api"; // Updated port to match backend
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
